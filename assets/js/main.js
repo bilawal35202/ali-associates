@@ -204,9 +204,8 @@ $('.raising-nav').dropdownMenu({
 });
 
 $('.navbar-toggle').on('click', function() {
-    $('.page-wrap').toggleClass('active');
+    $('.raising-menu').toggleClass('active');
 });
-
 $(window).on('resize', function(){
     var ww = $(window).width();
 

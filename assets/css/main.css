@@ -1644,7 +1644,10 @@ mark,
 
 /* 12. quote
 --------------------------------------------------------------------------------*/
-
+.logo-title{
+  color: white;
+  padding-left: 10px;
+}
 .quote {
   position: relative;
   font-family: "Playfair Display", serif;
@@ -3262,9 +3265,9 @@ mark,
   bottom: -12px;
 }
 
-.page-wrap.active .header {
+/* .page-wrap.active .header {
   left: -300px;
-}
+} */
 
 .raising-nav {
   z-index: 999;
